@@ -14,5 +14,3 @@ module.exports = {
   requestAnimationFrame,
   THREE,
 };
-
-console.log(module.exports);
