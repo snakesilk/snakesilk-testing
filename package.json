@@ -1,0 +1,9 @@
+{
+    "name": "@snakesilk/testing",
+    "version": "0.0.0",
+    "description": "Testing library used by SnakeSilk.",
+    "license": "MIT",
+    "dependencies": {
+        "sinon": "^1.17.3"
+    }
+}
