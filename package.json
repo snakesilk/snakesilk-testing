@@ -4,6 +4,7 @@
   "description": "Testing library used by SnakeSilk.",
   "license": "MIT",
   "dependencies": {
+    "node-jsdom": "^3.1.5",
     "sinon": "^1.17.3",
     "three": "0.70"
   }
