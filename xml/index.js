@@ -1,11 +1,11 @@
 const fs = require('fs');
-const {jsdom} = require('node-jsdom');
+const {JSDOM} = require('jsdom');
 
 function createDoc(xml) {
-    const doc = jsdom(xml, {
-        parsingMode: 'xml',
+    const dom = new JSDOM(xml, {
+        contentType: "text/xml",
     });
-    return doc;
+    return dom.window.document;
 }
 
 function createNode(xml) {
